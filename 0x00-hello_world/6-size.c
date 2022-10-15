@@ -5,15 +5,15 @@
 */
 int main(void)
 {
-char character;
-int age;
-long int age_of;
-long long int age_for;
-float number;
-	printf("size of a char: %lu byte(s)", sizeof(character));
-	printf("\nsize of an int: %lu byte(s)", sizeof(age));
-	printf("\nsize of a long int: %lu byte(s)", sizeof(age_of));
-	printf("\nsize of a long long int: %lu byte(s)", sizeof(age_for));
-	printf("\nsize of a float: %lu byte(s)\n", sizeof(number));
+char a;
+int b;
+long int c;
+long long int d;
+float e;
+	printf("size of a char: %lu byte(s)", sizeof(a));
+	printf("\nsize of an int: %lu byte(s)", sizeof(b));
+	printf("\nsize of a long int: %lu byte(s)", sizeof(c));
+	printf("\nsize of a long long int: %lu byte(s)", sizeof(d));
+	printf("\nsize of a float: %lu byte(s)\n", sizeof(e));
 	return (0);
 }
