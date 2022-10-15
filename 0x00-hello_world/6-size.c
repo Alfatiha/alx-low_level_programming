@@ -1,10 +1,10 @@
 #include <stdio.h>
+/**
+ * main - the size of various types on the computer
+ * Return: 0
+*/
 int main(void)
 {
-/**
- * main - print the size of various types on the computer
- * Return (0);
- */
 char character;
 int age;
 long int age_of;
