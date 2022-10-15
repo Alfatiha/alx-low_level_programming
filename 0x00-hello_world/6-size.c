@@ -3,7 +3,7 @@
  * main - print out sizes of data types in C
  * Return: 0
 */
-main(void)
+int main(void)
 {
 	char a;
 	int b;
